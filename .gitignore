@@ -1,7 +1,6 @@
 /.idea
 .env
 db.sqlite3
-/staticfiles/
 /venv/bin/activate
 /venv/bin/activate.csh
 /venv/bin/activate.fish
