@@ -55,7 +55,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+WHITENOISE_MIMETYPES = {
+    '.webp': 'image/webp',
+}
 ROOT_URLCONF = 'Kongoweb.urls'
 
 TEMPLATES = [
